@@ -5,34 +5,39 @@
 
 
 *{
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 .wrapper{
-    font-family: "SF-Pro-Display-Black";
-    color: color: #3c3434;;
+    max-width: 1200px;
+    color: #3c3434;
+    margin: 0 auto;
 }
 
 body{
+    
+    border: none;
     background: #efefef;
-    margin: 0;
+    font-family: "SF-Pro-Display-Black";
 }
+
 
 /* Header */
 
 .top-banner{
+    width: 100%;
     background: rgb(134,188,36);
     background: -moz-linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
     background: -webkit-linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
     background: linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#86bc24",endColorstr="#86bc24",GradientType=1);
     height: 100px;
+    
 }
 
 header{
     width: 100%;
     background: white;
-    padding: 5px;
     position: fixed;
     top: 0;
     left: 0;
@@ -60,7 +65,7 @@ header .logo{
 header nav{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
 }
 
@@ -69,6 +74,7 @@ header nav ul{
     align-items: center;
 }
 
+
 .T1,.T2,.T3,.T4,.T5,.T6,.T7,.T8,.Contact-Us,.search{
     text-decoration: none;
     text-transform: initial;
@@ -76,13 +82,15 @@ header nav ul{
 
 header nav ul li a{
     text-decoration: none;
-    padding: 5px;
-    margin: 5px;
+    padding: 20px;
+    margin: 0px;
     display: inline-block;
     text-transform: initial;
     color: #3c3434;
 }
 
+
+/* CONTENT BANNER */
 
 .banner{
     background: rgb(134,188,36);
@@ -90,4 +98,32 @@ header nav ul li a{
     background: -webkit-linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
     background: linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#86bc24",endColorstr="#86bc24",GradientType=1);
+}
+
+.bg-banner{
+    position: static;
+}
+/* IMG */
+
+.imgwomen{
+    position: sticky;
+    left: 1330px;
+}
+
+/* TITLE*/
+
+.title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 60px;
+    color: #3c3434;
+   position: absolute;
+  display: flex;
+}
+
+.caption{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
 }
