@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "SF-Pro-Display-Black";
+    src: url(./SF/SF-Pro-Display-Black.otf);
+}
+
+
+*{
+    box-sizing: content-box;
+}
+
+.wrapper{
+    font-family: "SF-Pro-Display-Black";
+    color: color: #3c3434;;
+}
+
+body{
+    background: #efefef;
+    margin: 0;
+}
+
+/* Header */
+
+.top-banner{
+    background: rgb(134,188,36);
+    background: -moz-linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
+    background: linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#86bc24",endColorstr="#86bc24",GradientType=1);
+    height: 100px;
+}
+
+header{
+    width: 100%;
+    background: white;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+header .wrapper{
+    display: flex;
+    align-items: center;
+}
+
+header.logo{
+    margin-right: 20px;
+}
+
+header .logo img{
+    width: 100px;
+    display: block;
+}
+
+header .logo{
+    display: flex;
+}
+
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.T1,.T2,.T3,.T4,.T5,.T6,.T7,.T8,.Contact-Us,.search{
+    text-decoration: none;
+    text-transform: initial;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    text-transform: initial;
+    color: #3c3434;
+}
+
+
+.banner{
+    background: rgb(134,188,36);
+    background: -moz-linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
+    background: linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#86bc24",endColorstr="#86bc24",GradientType=1);
+}
