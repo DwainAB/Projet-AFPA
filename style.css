@@ -1,3 +1,5 @@
+/* GLOBAL PAGE */
+
 @font-face {
     font-family: "SF-Pro-Display-Black";
     src: url(./SF/SF-Pro-Display-Black.otf);
@@ -9,22 +11,18 @@
 }
 
 .wrapper{
-    max-width: 1200px;
-    color: #3c3434;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
 body{
-    
-    border: none;
-    background: #efefef;
     font-family: "SF-Pro-Display-Black";
+    background: #efefef;
 }
 
+/* HEADER */
 
-/* Header */
-
-.top-banner{
+.bgtop{
     width: 100%;
     background: rgb(134,188,36);
     background: -moz-linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
@@ -32,7 +30,6 @@ body{
     background: linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#86bc24",endColorstr="#86bc24",GradientType=1);
     height: 100px;
-    
 }
 
 header{
@@ -47,10 +44,12 @@ header{
 header .wrapper{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-header.logo{
+header .logo{
     margin-right: 20px;
+    display: flex;
 }
 
 header .logo img{
@@ -58,59 +57,26 @@ header .logo img{
     display: block;
 }
 
-header .logo{
-    display: flex;
-}
-
-header nav{
-    width: 100%;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-}
-
 header nav ul{
     display: flex;
     align-items: center;
-}
-
-
-.T1,.T2,.T3,.T4,.T5,.T6,.T7,.T8,.Contact-Us,.search{
-    text-decoration: none;
-    text-transform: initial;
-}
-
-header nav ul li a{
-    text-decoration: none;
     padding: 20px;
-    margin: 0px;
-    display: inline-block;
-    text-transform: initial;
+}
+
+header ul li a{
+    text-decoration: none;
     color: #3c3434;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    text-transform: none;
 }
 
-
-/* CONTENT BANNER */
-
-.banner{
-    background: rgb(134,188,36);
-    background: -moz-linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
-    background: linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#86bc24",endColorstr="#86bc24",GradientType=1);
+.search-contact{
+    display: flex;
+    align-items: center;
 }
-
-.bg-banner{
-    position: static;
-}
-/* IMG */
-
-.imgwomen{
-    position: sticky;
-    left: 1330px;
-}
-
-/* TITLE*/
+/* BANNER */
 
 .title{
     text-transform: uppercase;
@@ -127,3 +93,34 @@ header nav ul li a{
     font-size: 60px;
     color: white;
 }
+
+.banner{
+    width: 100%;
+    background: rgb(134,188,36);
+    background: -moz-linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
+    background: linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#86bc24",endColorstr="#86bc24",GradientType=1);
+}
+
+.banner .wrapper{
+    /* background: blue; */
+    position: absolute;
+   top: 0;
+   left: 50%;
+   height: 100%;
+   transform: translate(-50%);
+   width: 100%;
+
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+
+ .banner .banner-box{
+    background: white;
+    border-radius: 15px; /*Arrondir les bords*/
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+ }
