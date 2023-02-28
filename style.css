@@ -78,20 +78,9 @@ header ul li a{
 }
 /* BANNER */
 
-.title{
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 60px;
-    color: #3c3434;
-   position: absolute;
-  display: flex;
-}
-
-.caption{
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 60px;
-    color: white;
+.bg-banner{
+    position: relative;
+    width: 100%;
 }
 
 .banner{
@@ -104,23 +93,19 @@ header ul li a{
 }
 
 .banner .wrapper{
-    /* background: blue; */
     position: absolute;
-   top: 0;
-   left: 50%;
-   height: 100%;
-   transform: translate(-50%);
-   width: 100%;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    transform: translate(-50%);
+    width: 100%;
 
-   display: flex;
-   justify-content: flex-end;
-   align-items: flex-end;
-}
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    }
 
- .banner .banner-box{
+.banner .banner-box{
     background: white;
-    border-radius: 15px; /*Arrondir les bords*/
-    padding: 20px;
-    margin-bottom: 20px;
     position: relative;
  }
