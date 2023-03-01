@@ -242,7 +242,8 @@ header ul li a{
     margin-top: 20px;
     align-items: center;
     display: flex;
-    width: 384px;
+    width: 30%;
+    border-radius: 4px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -254,14 +255,25 @@ header ul li a{
     background: var(--color-pink);
 }
 
+@media screen and (max-width:1400px){
+    .main-block{
+        height: 1000px;
+    } 
+
+}
+
 /*Choix de formation*/
 
 .formation-choice{
     position: relative;
     height: 478px;
-    margin-top: 50px;
     padding-top: 1px;
     background-color: #efefef;
+}
+
+.formation-content{
+    width: 75%;
+    margin: 0 auto;
 }
 
 .formation-choice-title{
@@ -270,7 +282,6 @@ header ul li a{
     font-family: 'Roboto', sans-serif;
     font-size: 2.5rem;
     margin-top: 90px;
-    margin-left: 96px;
     z-index: 3;
 }
 
