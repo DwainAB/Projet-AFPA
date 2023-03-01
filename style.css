@@ -497,6 +497,7 @@ border-radius: 7px;
 }
 
 .location-number-text{
+    font-family: 'Roboto', sans-serif;
     color: #8D7C7C;
     font-size: 20px;
     font-weight: 500;
@@ -504,17 +505,20 @@ border-radius: 7px;
 }
 
 .location-title{
+    font-family: 'Roboto', sans-serif;
     font-size: 40px;
     font-weight: 900;
 }
 
 .black-number{
+    font-family: 'Roboto', sans-serif;
     color: #3C3434;
     font-size: 65px;
     font-weight: 900;
 }
 
 .green-number{
+    font-family: 'Roboto', sans-serif;
     font-size: 40px;
     font-weight: 900;
     color: #86BC24;
