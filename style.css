@@ -337,3 +337,34 @@ header ul li a{
 .two{
     width: 270px;
 }
+/* .bg-banner{
+    position: relative;
+    width: 100%;
+}
+
+.banner{
+    width: 100%;
+    background: rgb(134,188,36);
+    background: -moz-linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
+    background: linear-gradient(90deg, rgba(134,188,36,1) 0%, rgba(174,239,53,1) 50%, rgba(134,188,36,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#86bc24",endColorstr="#86bc24",GradientType=1);
+}
+
+.banner .wrapper{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    transform: translate(-50%);
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    }
+
+.banner .banner-box{
+    background: white;
+    position: relative;
+ } */
