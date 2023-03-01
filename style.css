@@ -5,7 +5,7 @@
 }
 
 .wrapper{
-    max-width: 1440px;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -15,6 +15,12 @@ body{
 }
 
 /* HEADER */
+
+br{
+    width: 10px;
+    margin: 10px;
+}
+
 
 header {
     display: flex;
@@ -35,13 +41,13 @@ header .wrapper {
     align-items: center;
     font-family: 'Roboto', sans-serif;
     width: 100%;
-    max-width: 1440px;
+    max-width: 80%;
     height: 100px;
 }
 
 header .logo{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     display: flex;
 }
@@ -60,8 +66,8 @@ header nav ul{
 header ul li a{
     text-decoration: none;
     color: #3c3434;
-    padding: 5px;
-    margin: 5px;
+    padding: 10px;
+    margin: 10px;
     display: inline-block;
     text-transform: none;
 }
@@ -76,12 +82,24 @@ header ul li a{
     color: white;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    transition: all 0.5;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-header:hover {background-color: #86BC24}
+
+.btn:active {
+  background-color: #86BC24;
+  box-shadow: 0 5px #EBEBEB;
+  transform: translateY(4px);
 }
 
 .search-contact{
     display: flex;
     align-items: center;
 }
+
 /* BANNER */
 
 .banner {
@@ -104,7 +122,6 @@ header ul li a{
     justify-content: space-between;
     /* Responsive */
     width: 100%;
-    max-width: 1440px;
 }
 
 .banner__inner__left {
@@ -142,7 +159,14 @@ header ul li a{
 
 .searchbar__input {
     border: none;
+    outline: none;
     /* padding-left: 16px; */
+}
+
+@media screen and (min-width:1600px){
+    .banner__inner, .wrapper{
+        max-width: 80%;
+    } 
 }
 
 /* FONTS */
