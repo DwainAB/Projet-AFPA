@@ -1,82 +1,194 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://use.typekit.net/fqg2pyf.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
     <title>Afpa</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class=wrapper>
-          <div class="logo">
-            <a href="#">
-              <img src="image/logo-afpa.svg" alt="logo-afpa">
+      <div class=wrapper>
+        <div class="logo">
+          <a href="#">
+            <img src="image/logo-afpa.svg" alt="logo-afpa">
+          </a>
+        </div>
+        <nav>
+          <ul class="listing">
+            <li>
+              <a class="T1" href="#">Fomations</a>
+            </li>
+            <li>
+              <a class="T2" href="#">Particulier</a>
+            </li>
+            <li>
+              <a class="T3" href="#">Partenaire</a>
+            </li>
+            <li>
+              <a class="T4" href="#">Entreprise</a>
+            </li>
+            <li>
+              <a class="T5" href="#">Jeune 16-18 ans</a>
+            </li>
+            <li>
+              <a class="T6" href="#">Chez l'AFPA</a>
+            </li>
+            <li>
+              <a class="T7" href="#">Actualité</a>
+            </li>
+            <li>
+              <a class="search-btn" href="#">
+                <img src="image/search.svg" alt="search-icon">
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div>
+          <button class="btn-header" type="button">Contactez nous</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="banner">
+        <div class="banner__inner">
+          <!-- banner__inner = wrapper -->
+          <div class="banner__inner__left">
+            <h2 class="title text-white">
+              <span class="text-black">La Plateforme</span>
+              </br> Faite a 100% comme vous </br> A 100% pour vous
+            </h2>
+            <div class="searchbar">
+              <img src="./image/search.svg" alt="search image" class="searchbar__image">
+              <input class="searchbar__input" type="text" placeholder="Je veux me former en...">
+              <!-- cf placeholder et value -->
+            </div>
+          </div>
+          <div class="banner__inner__right">
+            <img src="image/women-pc.svg" alt="women-holding-pc" class="banner__image">
+          </div>
+        </div>
+      </section>
+      <div class="main-block">
+        <div class="block-information">
+          <p class="information-text">Formez vous en <span class="text-color">obtennant un diplôme </br>
+            </span>
+            <span class="information-text-little">avec nos nombreuses formations</span>
+            <span class="information-text-fat">ou </br>
+            </span> Avec nos formations <span class="text-color">en ligne</span>
+          </p>
+          <div class="list-formation">
+            <div class="formations">
+              <img class="formation-image" src="./image/mdi_play-arrow.svg" alt="fleche">
+              <p class="title-formation">Devellopeur Wab avec anglais +</p>
+            </div>
+            <div class="formations">
+              <img class="formation-image" src="./image/mdi_play-arrow.svg" alt="">
+              <p class="title-formation">Devellopeur App Android</p>
+            </div>
+            <div class="formations">
+              <img class="formation-image" src="./image/mdi_play-arrow.svg" alt="">
+              <p class="title-formation">Parcours créateur d'entreprise</p>
+            </div>
+            <div class="formations">
+              <img class="formation-image" src="./image/mdi_play-arrow.svg" alt="">
+              <p class="title-formation">Comptable assistant</p>
+            </div>
+            <div class="formations">
+              <img class="formation-image" src="./image/mdi_play-arrow.svg" alt="">
+              <p class="title-formation">Technicien système et réseaux</p>
+            </div>
+            <div class="formations">
+              <img class="formation-image" src="./image/mdi_play-arrow.svg" alt="">
+              <p class="title-formation">Conseiller insertion professionnelle</p>
+            </div>
+            <div class="formations">
+              <img class="formation-image" src="./image/mdi_play-arrow.svg" alt="">
+              <p class="title-formation">CléA Numérique</p>
+            </div>
+            <div class="formations">
+              <img class="formation-image" src="./image/mdi_play-arrow.svg" alt="">
+              <p class="title-formation">cléA Métier</p>
+            </div>
+            <div class="formations">
+              <img class="formation-image" src="./image/mdi_play-arrow.svg" alt="">
+              <p class="title-formation">CléA remise a niveau global</p>
+            </div>
+            <div class="formations">
+              <img class="formation-image" src="./image/mdi_play-arrow.svg" alt="">
+              <p class="title-formation">Devpt. de la langue française</p>
+            </div>
+            <div class="formations">
+              <img class="formation-image" src="./image/mdi_play-arrow.svg" alt="">
+              <p class="title-formation">Administrateur système</p>
+            </div>
+            <div class="formations">
+              <img class="formation-image" src="./image/mdi_play-arrow.svg" alt="">
+              <p class="title-formation">Programmeur 3D</p>
+            </div>
+            <div class="formations">
+              <img class="formation-image" src="./image/mdi_play-arrow.svg" alt="">
+              <p class="title-formation">Game Dev</p>
+            </div>
+            <div class="formations">
+              <img class="formation-image" src="./image/mdi_play-arrow.svg" alt="">
+              <p class="title-formation">Game Designer</p>
+            </div>
+            <div class="formations">
+              <img class="formation-image" src="./image/mdi_play-arrow.svg" alt="">
+              <p class="title-formation">Management User Interface</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="formation-choice">
+        <h2 class="formation-choice-title">Prenez votre carriere <span class="text-color">en main</span>
+        </h2>
+        <img class="choice-image" src="./image/AdobeStock_5358264161.svg" alt="Personne qui travaille">
+        <div class="choice-selection">
+          <div class="choice">
+            <h3 class="choice-title">Formation <span class="text-color">longues</span>
+            </h3>
+            <p class="choice-text">Je veux de l'élan ou marquer un tournant dans ma carrière</p>
+            <a class="choice-link one" href="#">Voir tout les diplomes <img src="./image/mdi_play-arrow.svg" alt="">
             </a>
           </div>
-          <nav>
-            <ul class="listing">
-              <li>
-                <a class="T1" href="#">Fomations</a>
-              </li>
-              <li>
-                <a class="T2" href="#">Particulier</a>
-              </li>
-              <li>
-                <a class="T3" href="#">Partenaire</a>
-              </li>
-              <li>
-                <a class="T4" href="#">Entreprise</a>
-              </li>
-              <li>
-                <a class="T5" href="#">Jeune 16-18 ans</a>
-              </li>
-              <li>
-                <a class="T6" href="#">Chez l'AFPA</a>
-              </li>
-              <li>
-                <a class="T7" href="#">Actualité</a>
-              </li>
-              <li>
-                <a class="search-btn" href="#">
-                  <img src="image/search.svg" alt="search-icon">
-                </a>
-              </li>
-            </ul>
-          </nav>
-            <div>
-              <button class="btn-header" type="button">Contactez nous</button>
-            </div>
+          <div class="choice">
+            <h3 class="choice-title">Formation <span class="text-color">courtes</span>
+            </h3>
+            <p class="choice-text">Je veux développer mes compétences et faire évoluer rapidement ma carrière</p>
+            <a class="choice-link two" href="#">Voir toutes mes solutions rapides <img src="./image/mdi_play-arrow.svg" alt="">
+            </a>
+          </div>
         </div>
-      </header>
+      </div>
 
-    <main> 
-        <section class="banner">
-            <div class="banner__inner"> <!-- banner__inner = wrapper -->
-      
-              <div class="banner__inner__left">
-                <h2 class="title text-white">
-                  <span class="text-black">La Plateforme</span>
-                  </br>
-                  Faite a 100% comme vous
-                  </br>
-                  A 100% pour vous
-                </h2>
-                <div class="searchbar">
-                  <image src="./image/search.svg" alt="search image" class="searchbar__image">
-                  <input class="searchbar__input" type="text" placeholder="Je veux me former en..."> <!-- cf placeholder et value -->
-                </div>
+      <section class="countdown__card">
+        <div class="background-total-card">
+          <div class="card__inner">
+            <div class="card__inner__left">
+              <div class="logo__next__work">
+                <img src="image/alt-logo-afpa.svg" alt="logo-aleternatif-afpa">
+                <h2 class="logo__title__bot">
+                  <span class="title text-black2">Work</span>
               </div>
-      
-              <div class="banner__inner__right">
-                <image src="image/women-pc.svg" alt="women-holding-pc" class="banner__image">
+                <h2 class=txt-banner-card">Retrouvez nous lors de nos rencontres et conventions organisés régulièrement dans tout le territoire français et posez toutes vos questions !</h2>
+              </h2>
+            </div>
+            <div class="card__inner__right">
+              <div class="card-bg-fill">
+                <h1 class="join__us">Rejoignez-nous</h1>
+                <h2 class="countdown__hour"> 00j:24h:56s</h2>
               </div>
-      
+              <div class="card-bg-tick">
+                <button class="btn-card" type="button">En savoir plus</button>
+              </div>
             </div>
           </section>
 
