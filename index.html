@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Afpa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
   </head>
   <body>
+
     <header>
-      <div class="bgtop">
-        <div class="color"></div>
-      </div>
       <div class=wrapper>
         <a class="logo" href="#">
           <img src="img/logo-afpa.svg" alt="logo-afpa">
@@ -52,15 +53,30 @@
         </nav>
       </div>
     </header>
+
     <section class="banner">
-      <div class="bg-banner"></div>
-      <div class="wrapper">
-        <div class="banner-box">
-          <span class="img-women">
-            <img src="img/women-pc.svg" alt="women-holding-pc">
-          </span>
+      <div class="banner__inner"> <!-- banner__inner = wrapper -->
+
+        <div class="banner__inner__left">
+          <h2 class="title text-white">
+            <span class="text-black">La Plateforme</span>
+            </br>
+            Faite a 100% comme vous
+            </br>
+            A 100% pour vous
+          </h2>
+          <div class="searchbar">
+            <img src="./img/search.svg" alt="search image" class="searchbar__image">
+            <input class="searchbar__input" type="text" placeholder="Je veux me former en..."> <!-- cf placeholder et value -->
+          </div>
         </div>
+
+        <div class="banner__inner__right">
+          <img src="img/women-pc.svg" alt="women-holding-pc" class="banner__image">
+        </div>
+
       </div>
     </section>
+
   </body>
 </html>
