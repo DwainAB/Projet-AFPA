@@ -87,7 +87,7 @@ header ul li a{
     height: 32px;
     border-radius: 100px;
     border: none;
-    background-color: rgb(212, 88, 236);
+    background-color: var(--color-pink);
     color: white;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -339,6 +339,7 @@ header ul li a{
     display: flex;
     align-items: center;
     margin: 8px auto;
+    font-family: "Roboto";
 }
 
 .choice-link image{
@@ -596,6 +597,17 @@ margin: 0 auto;
     display: flex;
     align-items: center;
     margin: 8px auto;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+
+.link-button:hover {background-color: #86BC24}
+
+.link-button:active {
+  background-color: #86BC24;
+  box-shadow: 0 5px #EBEBEB;
+  transform: translateY(4px);
 }
 
 .logo-button{
