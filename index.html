@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="./style.css">
-		<link rel="stylesheet" href="reset.css">
+<!----------------------------Partie CSS-------------------------------------------------->
+		<link rel="stylesheet" href="./CSS/banner-counter.css">
+		<link rel="stylesheet" href="./CSS/banner.css"> 
+		<link rel="stylesheet" href="./CSS/block-list-formation.css">
+		<link rel="stylesheet" href="./CSS/block-location.css">
+		<link rel="stylesheet" href="./CSS/block-qualification.css">
+		<link rel="stylesheet" href="./CSS/block-time-formation.css">
+		<link rel="stylesheet" href="./CSS/footer.css">
+		<link rel="stylesheet" href="./CSS/global.css">
+		<link rel="stylesheet" href="./CSS/header.css">
+		<link rel="stylesheet" href="./CSS/reset.css">
+<!---------------------------- Fin partie CSS-------------------------------------------------->
+<!-------------------------------------- Font-------------------------------------------------->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link rel="stylesheet" href="https://use.typekit.net/fqg2pyf.css">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+<!-------------------------------------- Font-------------------------------------------------->
 		<title>Afpa</title>
 	</head>
+
 	<body>
 		<header>
 			<div class=wrapper>
@@ -23,25 +37,25 @@
 				<nav>
 					<ul class="listing">
 						<li>
-							<a class="T1" href="#">Fomations</a>
+							<a class="T1" href="https://www.afpa.fr/entrees-rapides-formation">Fomations</a>
 						</li>
 						<li>
-							<a class="T2" href="#">Particulier</a>
+							<a class="T2" href="https://www.afpa.fr/particulier/etre-conseille-venir-s-informer/conseil-formation-afpa-des-solutions-pres-de-chez-vous-">Particulier</a>
 						</li>
 						<li>
-							<a class="T3" href="#">Partenaire</a>
+							<a class="T3" href="https://www.afpa.fr/groupe-afpa/construire-son-itineraire-professionnel/l-afpa-donne-une-deuxieme-chance-aux-jeunes-sortis-du-systeme-scolaire-avec-declic-pour-l-action">Partenaire</a>
 						</li>
 						<li>
-							<a class="T4" href="#">Entreprise</a>
+							<a class="T4" href="https://www.afpa.fr/entreprise/concevoir-vos-projets-de-formation/construire-votre-formation-sur-mesu-1">Entreprise</a>
 						</li>
 						<li>
-							<a class="T5" href="#">Jeune 16-18 ans</a>
+							<a class="T5" href="https://cloud.info.afpa.fr/Promo16-18v3a">Jeune 16-18 ans</a>
 						</li>
 						<li>
-							<a class="T6" href="#">Chez l'AFPA</a>
+							<a class="T6" href="https://www.afpa.fr/groupe-afpa/notre-marque-pedagogique/les-grands-principes-de-la-pedagogie-afpa">Chez l'AFPA</a>
 						</li>
 						<li>
-							<a class="T7" href="#">Actualité</a>
+							<a class="T7" href="https://www.afpa.fr/a-la-une">Actualité</a>
 						</li>
 						<li>
 							<a class="search-btn" href="#">
@@ -56,7 +70,7 @@
 			</div>
 		</header>
 		<main>
-			<section class="banner">
+			<section class="banner"> <!--Bannière de la page-->
 				<div class="banner__inner">
 					<!-- banner__inner = wrapper -->
 					<div class="banner__inner__left">
@@ -75,7 +89,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="main-block">
+			<section class="main-block"> <!-- Liste des formations-->
 				<div class="block-information">
 					<p class="information-text">Formez vous en <span class="text-color">obtennant un diplôme </br>
 						</span>
@@ -147,7 +161,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="formation-choice">
+			<section class="formation-choice"> <!--Longue ou courte-->
 				<img class="choice-image" src="./image/AdobeStock_5358264161.svg" alt="Personne qui travail">
 				<div class="formation-content">
 					<h2 class="formation-choice-title">Prenez votre carriere <span class="text-color">en main</span>
@@ -170,7 +184,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="countdown__card">
+			<section class="countdown__card"><!--Baniière avec un compteur-->
 				<div class="background-total-card">
 					<div class="card__inner">
 						<div class="card__inner__left">
@@ -185,7 +199,7 @@
 						<div class="card__inner__right">
 							<div class="card-bg-fill">
 								<h1 class="join__us">Rejoignez-nous</h1>
-								<h2 class="countdown__hour"> 00j:24h:56s</h2>
+								<h2 id="counter" class="countdown__hour"> </h2>
 							</div>
 							<div class="card-bg-tick">
 								<button class="btn-card" type="button">En savoir plus</button>
@@ -194,7 +208,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="location">
+			<section class="location"> <!--Ou se trouve l'Afpa et chiffre-->
 				<div class="location-info">
 					<h2 class="location-title">Choisissez l' <span class="green-number">AFPA</span> pour votre formation </h2>
 					<div class="list-location-number">
@@ -220,7 +234,7 @@
 					<img src="./image/france.svg" alt="image de la france">
 				</div>
 			</section>
-			<section class="all-adventage-formation">
+			<section class="all-adventage-formation"> <!--Les avantage de leurs formations-->
 				<div class="adventage-formation">
 					<img class="image-adventage-formation" src="./image/1.svg" alt="">
 					<h3 class="title-adventage-formation">Nous vous accompagnons</h3>
@@ -247,7 +261,7 @@
 					<p class="text-adventage-formation">Formez vous dans un environnement concret conscient des enjeux du monde du travail et de ses besoins.Adaptez vous au marché de l'emploi grâce à nos formations adaptées.</p>
 				</div>
 			</section>
-			<section class="about-and-logo">
+			<section class="about-and-logo"> <!--En savoir plus et partenaire-->
 				<div class="button-about">
 					<a href="#" class="link-button">Je veux en savoir + <img class="logo-button" src="./image/mdi_play-arrow.png" alt="">
 					</a>
@@ -302,3 +316,7 @@
 				<p class="footer-end-text">©2023, Tout droits right reserved.</p>
 			</div>
 		</footer>
+		<script type="text/javascript" src="./Javascript/counter.js"></script>
+	</body>
+</html>
+	
