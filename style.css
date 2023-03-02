@@ -91,7 +91,7 @@ header ul li a{
     color: white;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    transition: all 0.5;
+    transition: all;
     cursor: pointer;
     outline: none;
 }
@@ -461,7 +461,7 @@ border-radius: 7px;
     text-align: center;
     font-weight: bold;
     font-size: 18px;
-    transition: all 0.5;
+    transition: all;
     cursor: pointer;
     outline: none;
 }
