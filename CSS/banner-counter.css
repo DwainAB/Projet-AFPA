@@ -3,8 +3,8 @@
 /*---------------------------Section counter-------------------*/
 .card__inner{
     display: flex;
-    flex-direction: row; /* se docu sur flex direction asap */
-    justify-content: space-between;
+    flex-direction: row; /* direction du content*/
+    justify-content: space-between; /* espace entre les contenus */
     position: relative;
     z-index: 2;
     align-items: center;

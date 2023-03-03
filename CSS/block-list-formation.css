@@ -42,7 +42,7 @@
 
 .list-formation{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*content qui se met a la ligne*/
     justify-content: space-between;
 }
 

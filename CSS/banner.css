@@ -19,7 +19,7 @@
 .banner__inner {
     /* Positionner */
     display: flex;
-    flex-direction: row; /* se docu sur flex direction asap */
+    flex-direction: row; /* direction du content*/
     justify-content: space-between;
     /* Responsive */
     width: 75%;
@@ -34,7 +34,7 @@
 
 .banner__inner__right {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end; /* content aligné sur la fin droite de son parent*/
     width: 30%;
 }
 
