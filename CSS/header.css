@@ -84,3 +84,71 @@ header ul li a{
     display: flex;
     align-items: center;
 }
+
+
+
+@media screen and (max-width:1500px) {
+    header .wrapper{
+        height: auto;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    header{
+        position: initial;
+    }
+
+    header nav ul{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    nav{
+        width: 117%;
+        display: flex;
+        justify-content: center;
+    }
+
+    header nav ul{
+        width: 50%;
+        height: 0;
+        opacity: 0;
+        justify-content: center;
+    }
+
+    header nav ul li{
+        font-size: 18px;
+        font-weight: 900;
+    }
+
+    .menu-trigger-input:checked{
+        background-color: red;
+    }
+
+    .menu-trigger-input:checked~ul{
+      opacity: 1;
+      height: auto;
+    }
+
+    input[type="checkbox"] {
+        /* ...existing styles */
+        display: grid;
+        place-content: center;
+      }
+      
+      input[type="checkbox"]::before {
+        content: "";
+        width: 0.65em;
+        height: 0.65em;
+        transform: scale(0);
+        transition: 120ms transform ease-in-out;
+        box-shadow: inset 1em 1em var(--form-control-color);
+      }
+      
+      input[type="checkbox"]:checked::before {
+        transform: scale(1);
+      }
+}
+
